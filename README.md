@@ -59,3 +59,16 @@ To train our semantic parsing model, use `scripts/run.sh train_lf`.
 `scripts/run.sh test`, it will generate decomposed query with a input file, and print bleu-4 & rouge-l score compared to references.
 
 `scripts/run.sh test_lf`, it will generate logical form with a input file, and print EM score compared to references. 
+
+## Citation
+
+If you use this code in your research, please kindly cite our paper via the following BibTeX.
+
+```bibtex
+@inproceedings{Zhang2019HSP,
+author = {Zhang, Haoyu and Cai, Jingjing and Xu, Jianjun and Wang, Ji},
+booktitle = {Conference of the Association for Computational Linguistics (ACL)},
+year = {2019}
+}
+
+```
